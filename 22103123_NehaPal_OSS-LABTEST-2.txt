@@ -1,0 +1,17 @@
+OSS LAB TEST 2
+22103123_NehaPal
+import numpy as np
+
+def string_with_vowel(arr):
+    vowels = set("aeiou")
+    max_vowel_count = -1
+    result = " "
+    for a in arr:
+        count = len(set(a.lower and vowels))
+        if (count > max_vowel_count):
+            count = max_vowel_count
+        result = a
+    return result
+
+arr = ["dog","cat","sheep"]
+string_with_vowel(arr)
